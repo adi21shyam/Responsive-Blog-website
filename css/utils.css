@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto:ital,wght@1,300&display=swap');
+
+:root {
+  --main-bg-color: brown;
+  --font1: 'Playfair Display', serif;
+  --font2: 'Roboto', sans-serif;
+}
+
+.font1{
+  font-family: var(--font1);
+}
+
+.font2{
+  font-family: var(--font2);
+}
+
+.max-width-1 {
+  max-width: 80vw;
+}
+
+.max-width-2 {
+  max-width: 60vw;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.my-2{
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
+.btn {
+  padding: 0px 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: var(--font1);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  color: white;
+  background: var(--main-bg-color)
+}
+
+.form-input {
+  padding: 0px 5px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin: 0 13px;
+  font-family: var(--font1);
+}
+
+.form-box input, textarea{
+  width: 52vw;
+  padding: 10px 6px;
+  margin: 5px;
+}

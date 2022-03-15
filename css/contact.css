@@ -1,0 +1,50 @@
+
+
+.footer{
+  background-color: aqua;
+}
+
+
+.contact-content {
+  /* height: 395px; */
+  /* display: flex; */
+  /* background-color: red; */
+  /* display: flex; */
+  margin-top: 32px;
+  padding: 19px;
+  position: relative;
+  /* text-align: center; */
+  padding-left: 10vw;
+  height: 40vw;
+  overflow: hidden;
+
+}
+
+.contact-content-1{
+  margin-top: 50vw;
+}
+
+.contact-content-h2{
+  /* text-align: center; */
+
+  padding-top: 5%;
+  padding-left: 2%;
+  padding-bottom: 3%%;
+}
+
+.contact-content::after{
+  content: "";
+    background-image: url(../image/home.svg.svg);
+    position: absolute;
+    top: 0px;
+    width: 1200px;
+    height: inherit;
+    opacity: 0.35;
+    border-radius: 500px;
+    background-position: center;
+    z-index: -1;
+}
+
+.contact-form{
+  text-align: center;
+}
